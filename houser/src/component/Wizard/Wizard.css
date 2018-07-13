@@ -1,0 +1,25 @@
+.wiz {
+  width: 720px;
+  background-color: #e8f4ed;
+  position: relative;
+  left: 360px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+/* .init-box {
+  background-color: #b6d3c1;
+} */
+
+.btn-p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  align-content: space-around;
+}

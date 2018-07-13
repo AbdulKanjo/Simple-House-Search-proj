@@ -1,0 +1,1 @@
+DELETE FROM house WHERE product_id=$1;
