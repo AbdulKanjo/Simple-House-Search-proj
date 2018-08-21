@@ -10,49 +10,6 @@ import {
   updateZip
 } from "../../ducks/reducer";
 class Wizard extends Component {
-  // constructor() {
-  //   super();
-  //   // this.state = {
-  //   //   name: "",
-  //   //   address: "",
-  //   //   city: "",
-  //   //   state: "",
-  //   //   zip: ""
-  //   // };
-  // }
-  // handleName(name) {
-  //   this.setState({ name: name });
-  // }
-  // handleAddress(address) {
-  //   this.setState({ address: address });
-  // }
-  // handleCity(city) {
-  //   this.setState({ city: city });
-  // }
-  // handleState(state) {
-  //   this.setState({ state: state });
-  // }
-  // handleZip(zip) {
-  //   this.setState({ zip: zip });
-  // }
-  // handleCancel() {
-  //   this.setState({
-  //     name: "",
-  //     address: "",
-  //     city: "",
-  //     state: "",
-  //     zip: ""
-  //   });
-  // }
-  // handleInventory(id) {
-  //   axios.post("/api/houses", {
-  //     name: this.state.name,
-  //     address: this.state.address,
-  //     city: this.state.city,
-  //     state: this.state.state,
-  //     zip: this.state.zip
-  //   });
-  // }
   render() {
     const {
       updateName,

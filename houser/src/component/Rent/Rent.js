@@ -13,21 +13,6 @@ import {
   updateImage
 } from "../../ducks/reducer";
 class Rent extends Component {
-  //  constructor() {
-  // //   super();
-  // //   this.state = {
-  // //     mortgage: "",
-  // //     rent: ""
-  // //   };
-  // this.handleInventory=this.handleInventory.bind(this);
-  // }
-
-  // handleMortgage(mortgage) {
-  //   this.setState({ mortgage: mortgage });
-  // }
-  // handleRent(mortgage) {
-  //   this.setState({ mortgage: mortgage });
-  // }
   handleInventory(id) {
     axios.post("/api/houses", {
       name: this.props.name,

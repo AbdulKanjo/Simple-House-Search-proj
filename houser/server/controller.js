@@ -7,7 +7,6 @@ const getAll = (req, res, next) => {
 const create = (req, res, next) => {
   const db = req.app.get("db");
   const { name, address, city, state, zip } = req.body;
-  console.log(req.body);
 
   db.create_house([name, address, city, state, zip])
     .then(() => res.status(200).send("all good"))

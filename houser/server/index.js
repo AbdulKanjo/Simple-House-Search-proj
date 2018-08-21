@@ -11,6 +11,7 @@ massive(process.env.CONNECTION_STRING)
     app.set("db", db);
   })
   .catch(e => console.log(e));
+
 app.use(express.static(`${__dirname}/../build`));
 
 app.get("/api/houses", controller.getAll);
